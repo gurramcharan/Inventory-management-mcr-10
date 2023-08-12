@@ -29,7 +29,7 @@ export const AddProduct = () => {
             id: productLength
         }));
         productDispatch({type: "add_product", payload: pdata})
-        // navigate("/products")
+        navigate("/products")
     }
     return (
         <div className='flex-column'>

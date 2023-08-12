@@ -36,8 +36,8 @@ export const Products = () => {
                 }}>New</Link>
             </div>
             <div className="products-container">
-                <table>
-                    <tr>
+                <table style={{border:"1px solid black", padding:"2rem", borderCollapse:"collapse"}}>
+                    <tr style={{border:"1px solid", backgroundColor:"#f2c188"}}>
                         <th>Image</th>
                         <th>Name</th>
                         <th>Description</th>
