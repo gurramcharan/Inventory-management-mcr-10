@@ -1,0 +1,67 @@
+/* styles.css */
+.App {
+  display: flex;
+}
+
+.navbar-container {
+  width: 300px;
+  box-sizing: border-box;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  padding: 1rem;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto;
+}
+
+.routes-container {
+  flex: 1;
+  margin-left: 300px; /* Account for the width of the navbar */
+  padding: 20px 50px;
+  overflow-y: auto;
+}
+
+/* Additional styling for navbar links */
+.navbar-container a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Styling for active navbar link */
+.navbar-container a.active {
+  background-color: #555;
+}
+
+/* Reset default margin on body */
+body {
+  margin: 0;
+}
+
+
+.flex-row{
+  display: flex;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.gap1{
+  gap:1rem
+}
+
+.gap2{
+  gap: 2rem;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
+.align-items{
+  align-items: center;
+}

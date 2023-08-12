@@ -1,0 +1,14 @@
+.dashboard-container{
+    display: flex;
+    gap: 2rem;
+}
+
+.dashboard-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem 2rem;
+    align-items: center;
+    background-color: rgb(235, 232, 232);
+    border-radius: 5px;
+}
